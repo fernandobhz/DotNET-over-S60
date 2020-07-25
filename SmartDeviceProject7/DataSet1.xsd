@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_TESTE" msprop:Generator_UserTableName="TB_TESTE" msprop:Generator_RowDeletedName="TB_TESTERowDeleted" msprop:Generator_TableClassName="TB_TESTEDataTable" msprop:Generator_RowChangedName="TB_TESTERowChanged" msprop:Generator_RowClassName="TB_TESTERow" msprop:Generator_RowChangingName="TB_TESTERowChanging" msprop:Generator_RowEvArgName="TB_TESTERowChangeEvent" msprop:Generator_RowEvHandlerName="TB_TESTERowChangeEventHandler" msprop:Generator_TablePropName="TB_TESTE" msprop:Generator_TableVarName="tableTB_TESTE" msprop:Generator_RowDeletingName="TB_TESTERowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_TESTE" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="CD_TESTE" msprop:Generator_ColumnPropNameInRow="CD_TESTE" msprop:Generator_ColumnVarNameInTable="columnCD_TESTE" msprop:Generator_ColumnPropNameInTable="CD_TESTEColumn" type="xs:int" />
+              <xs:element name="NM_TESTE" msprop:Generator_UserColumnName="NM_TESTE" msprop:Generator_ColumnPropNameInRow="NM_TESTE" msprop:Generator_ColumnVarNameInTable="columnNM_TESTE" msprop:Generator_ColumnPropNameInTable="NM_TESTEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TB_TESTE" />
+      <xs:field xpath="mstns:CD_TESTE" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
